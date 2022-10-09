@@ -1,0 +1,20 @@
+
+/*changes body font size and family*/
+body {
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/*changes website header background color*/
+header {
+    background-color: paleturquoise;
+}
+
+/*changes website footer background color*/
+footer {
+    background-color: paleturquoise;
+}
+
+.site-title {
+    color: darkblue;
+}
