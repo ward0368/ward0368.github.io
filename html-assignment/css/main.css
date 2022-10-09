@@ -50,6 +50,6 @@ a:link {
 /*styles hover/active*/
 a:hover, a:active {
     text-decoration: none;
-    color: palegoldenrod;
+    background-color: palegoldenrod;
 }
 
