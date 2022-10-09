@@ -15,6 +15,46 @@ footer {
     background-color: paleturquoise;
 }
 
+/*changes color of website tilte using class*/
 .site-title {
     color: darkblue;
+}
+
+/*adds a 1px black box shadow to my image using id*/
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+/*colors every odd list-items background*/
+.blocky-bullets :nth-child(odd) {
+    background: paleturquoise
+}
+
+/*changes bullet points to squares*/
+.blocky-bullets {
+    list-style-type: square;
+}
+
+/*styles navigation*/
+.navigation-style {
+    list-style: none;
+    background-color: paleturquoise;
+    border-style: solid;
+}
+
+/*styles default link*/
+a:link {
+    text-decoration: none;
+}
+
+/*styles hover/active*/
+a:hover, a:active {
+    text-decoration: none;
+    color: palegoldenrod;
+}
+
+/*styles visited link*/
+a:visited {
+    text-decoration: none;
+    color: darkorange;
 }
