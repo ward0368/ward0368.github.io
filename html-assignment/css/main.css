@@ -53,8 +53,3 @@ a:hover, a:active {
     color: palegoldenrod;
 }
 
-/*styles visited link*/
-a:visited {
-    text-decoration: none;
-    color: darkorange;
-}
