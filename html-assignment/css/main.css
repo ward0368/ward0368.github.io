@@ -5,15 +5,11 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-/*changes website header background color*/
-header {
+/*changes website and footer header background color*/
+header, footer{
     background-color: paleturquoise;
 }
 
-/*changes website footer background color*/
-footer {
-    background-color: paleturquoise;
-}
 
 /*changes color of website tilte using class*/
 .site-title {
