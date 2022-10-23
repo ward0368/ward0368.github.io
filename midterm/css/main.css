@@ -8,6 +8,18 @@ body {
 p {
     font-size: 14px;
 }
+
+#splashrock {
+    width: 50%;
+}
+
+.splashimage {
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 /*styles the main body of the site, adds margin and padding*/
 .wrapper {
     width: 50%;
