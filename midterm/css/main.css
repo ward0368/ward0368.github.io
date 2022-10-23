@@ -9,10 +9,12 @@ p {
     font-size: 14px;
 }
 
+/* DOES NOT WORK YET, LOOK INTO MORE LATER*/
 #splashrock {
     width: 50%;
 }
 
+/* DOES NOT WORK YET, LOOK INTO MORE LATER*/
 .splashimage {
     background-position: center;
     background-repeat:no-repeat;
@@ -41,6 +43,11 @@ p {
     border-style: solid;
     padding: 1.2%;
     border-width: thin;
+}
+
+/* DOES NOT WORK YET, LOOK INTO MORE LATER*/
+.input {
+    width: 500px;
 }
 
 /*adds padding, aligns copyright footer to right, bolds text*/
