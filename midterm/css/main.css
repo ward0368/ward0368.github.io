@@ -10,6 +10,14 @@ body {
     padding: 0.5%;
 }
 
+/*adds padding, corrects width and floats rock climber image*/
+#smallrock {
+    width: 25%;
+    float: left;
+    padding: 0% 2% 0% 0%;
+}
+
+
 /*adds border and padding to question box*/
 .box {
     border-style: solid;
