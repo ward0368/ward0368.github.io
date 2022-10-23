@@ -1,16 +1,22 @@
+
+/*styles the font of the site, changes the background color of the site*/
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: lightcoral;
 }
 
+p {
+    font-size: 14px;
+}
+/*styles the main body of the site, adds margin and padding*/
 .wrapper {
     width: 50%;
     background-color: lightyellow;
     margin:0 auto;
-    padding: 0.5%;
+    padding: 0.5%;  
 }
 
-/*adds padding, corrects width and floats rock climber image*/
+/*adds padding, changes size of image and floats to left*/
 #smallrock {
     width: 25%;
     float: left;
@@ -25,6 +31,7 @@ body {
     border-width: thin;
 }
 
+/*adds padding, aligns copyright footer to right, bolds text*/
 footer {
     padding: 2%;
     text-align: right;
