@@ -1,4 +1,24 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+    background-color: lightcoral;
+}
+
+.wrapper {
+    width: 50%;
+    background-color: lightyellow;
+    margin:0 auto;
+    padding: 0.5%;
+}
+
+/*adds border and padding to question box*/
+.box {
+    border-style: solid;
+    padding: 1.2%;
+    border-width: thin;
+}
+
+footer {
+    padding: 2%;
+    text-align: right;
+    font-weight: bold;
 }
