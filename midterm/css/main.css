@@ -1,13 +1,68 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+nav {
+    display: inline;
+}
+
 
 /*styles the font of the site, changes the background color of the site*/
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: lightcoral;
+    background-color: rgb(83, 159, 88);
 }
 
-p {
-    font-size: 14px;
-}
 
 .centered {
     position: absolute;
@@ -20,17 +75,20 @@ p {
     position: relative;
     text-align: center;
     color: white;
+
 }
 
 .padding {
-    padding: 0.5%;  
+    padding: 0.5%; 
 }
 
 /*styles the main body of the site, adds margin and padding*/
 .wrapper {
-    width: 50%;
-    background-color: lightyellow;
+    width: 70%;
+    background-color: rgb(148, 225, 165);
     margin:0 auto;
+    border-top: 0;
+
 }
 
 /*adds padding, changes size of image and floats to left*/
@@ -48,24 +106,41 @@ p {
     border-width: thin;
 }
 
-.info {
+.facts {
+    padding: 0 0 3% 0;
+    margin: 0 0 1% 0;
+}
 
+h1 {
+    font-size: 350%;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+p {
+    font-size: large;
+    padding: 0 0 1% 0;
+}
+
+input [type=text] {
+    display: block;
+    width: 99%;
 }
 
 input [type=radio] {
     display: inline;
 }
-input [type=text] {
-    display: block;
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
 
 textarea {
     width: 100%;
-    padding: 2px;
+    padding: 1%;
+    margin: 0 0 2% 0;
     box-sizing: border-box;
     line-height: 25px;
 }
