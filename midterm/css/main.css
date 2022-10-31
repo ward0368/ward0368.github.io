@@ -9,17 +9,21 @@ p {
     font-size: 14px;
 }
 
-/* DOES NOT WORK YET, LOOK INTO MORE LATER*/
-#splashrock {
-    width: 50%;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-/* DOES NOT WORK YET, LOOK INTO MORE LATER*/
-.splashimage {
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
+.container {
     position: relative;
+    text-align: center;
+    color: white;
+}
+
+.padding {
+    padding: 0.5%;  
 }
 
 /*styles the main body of the site, adds margin and padding*/
@@ -27,7 +31,6 @@ p {
     width: 50%;
     background-color: lightyellow;
     margin:0 auto;
-    padding: 0.5%;  
 }
 
 /*adds padding, changes size of image and floats to left*/
@@ -45,9 +48,26 @@ p {
     border-width: thin;
 }
 
-/* DOES NOT WORK YET, LOOK INTO MORE LATER*/
-.input {
-    width: 500px;
+.info {
+
+}
+
+input [type=radio] {
+    display: inline;
+}
+input [type=text] {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    line-height: 25px;
 }
 
 /*adds padding, aligns copyright footer to right, bolds text*/
