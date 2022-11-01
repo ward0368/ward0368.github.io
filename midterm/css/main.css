@@ -50,8 +50,7 @@ table {
 
 
 
-
-
+/*styles navigation, centers navigation, makes navigation inline, adds spacing to navigation*/
 nav ul li {
     display: inline;
     padding: 115px;
@@ -62,15 +61,16 @@ nav ul li {
     margin-top: 5%;
 }
 
+/*adds right border to home section of nav for stylization*/
 #home {
     border-right: 1px solid black;
 }
-
+/*adds right border to story section of nav for stylization*/
 #story{
     border-right: 1px solid black; 
 }
 
-
+/*centers navigation, adds spacing to navigation for looks*/
 .nav {
     line-height: 40px;
     text-align: center;
@@ -83,14 +83,14 @@ body {
     background-color: rgb(83, 159, 88);
 }
 
-
+/*styles links on page, styles visted links on page*/
 a:link, a:visited {
     text-decoration: none;
     color: black;
 }
 
 
-
+/*centers and controls width of splash image, adds background color for looks*/
 .container {
     position: relative;
     text-align: center;
@@ -100,6 +100,7 @@ a:link, a:visited {
     background-color: rgb(148, 225, 165);
 }
 
+/*centers title text above splash image, aligns text*/
 .centered {
     position: absolute;
     top: 70%;
@@ -110,6 +111,7 @@ a:link, a:visited {
 
 }
 
+/*adds bullets to facts list, stylizes facts list, adds spacing*/
 .bullet::before {
     content: "•";
     font-size: 1.5rem;
@@ -119,6 +121,7 @@ a:link, a:visited {
     line-height: 0px;
 }
 
+/*adds spacing to many areas with the padding tag*/
 .padding {
     padding: 0.5%; 
 }
@@ -147,6 +150,7 @@ a:link, a:visited {
     border-width: thin;
 }
 
+/*adds spacing to the facts list*/
 .facts {
     padding: 0 0 3% 0;
     margin: 0 0 1% 0;
@@ -157,48 +161,51 @@ h1 {
     font-size: 350%;
 }
 
-/*greatly increases font size of h2, adds padding to h2*/
+/*greatly increases font size of h2, adds spacing to h2*/
 h2 {
     font-size: xx-large;
     padding-bottom: 15px;
     padding-top: 15px;
 }
 
-/*increases font size of h3, adds padding to h3*/
+/*increases font size of h3, adds spacing to h3*/
 h3 {
     font-size: x-large;
     padding-bottom: 1.5%;
     padding-top: 1.5%;
 }
 
-/*adds padding to h4*/
+/*adds spacing to h4*/
 h4 {
     padding-bottom: 30px;
 }
 
-
+/*changes font size of paragraphs, adds spacing*/
 p {
     font-size: large;
     padding: 0 0 1% 0;
 }
 
-
+/*styles answer/input section, increases width of answer/input section in "contact"*/
 .info {
     display: block;
     width: 99%;
 }
 
+/*makes the radio input display inline rather than vertically*/
 input [type=radio] {
     display: inline;
 }
 
+/*adjusts the size of the main image to fit the rest of the website*/
 .mainimage {
     width: 100%;
     margin: 0 auto;
     padding: 0%;
-    border: 0%;
+    border: 0;
 }
 
+/*adjusts size of text area input, adds spacing, stylizes*/
 textarea {
     width: 100%;
     padding: 1%;
@@ -207,19 +214,22 @@ textarea {
     line-height: 25px;
 }
 
+/*adds spacing to yourname subheading*/
 #yourname {
     line-height: 35px;
 }
 
+/*adds spacing to youremail subheading*/
 #youremail {
     line-height: 35px;
 }
 
+/*adds spacing to yourmesasge subheading*/
 #yourmessage {
     line-height: 35px;
 }
 
-
+/*styles button, adds spacing, creates button design*/
 #button {
     border-style: solid;    
     text-transform: uppercase;
@@ -232,7 +242,7 @@ textarea {
     margin: 1.5% 0% 3px 3px;   
 }
 
-/*adds padding, aligns copyright footer to right, bolds text*/
+/*adds spacing, aligns copyright footer to right, bolds text*/
 footer {
     padding: 2%;
     text-align: right;
