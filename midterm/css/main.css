@@ -67,7 +67,7 @@ nav ul li {
 }
 
 #story{
-   border-right: 1px solid black; 
+    border-right: 1px solid black; 
 }
 
 
@@ -84,16 +84,12 @@ body {
 }
 
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
-    padding-top: 120px;
-    padding-right: 40px;
-
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
 }
+
+
 
 .container {
     position: relative;
@@ -104,12 +100,23 @@ body {
     background-color: rgb(148, 225, 165);
 }
 
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    text-align: center;
+
+}
+
 .bullet::before {
     content: "•";
     font-size: 1.5rem;
     color: black;
     padding-bottom: 0px;
     margin-right: 5px;
+    line-height: 0px;
 }
 
 .padding {
@@ -145,25 +152,28 @@ body {
     margin: 0 0 1% 0;
 }
 
+/*greatly increases font size of main title (h1)*/
 h1 {
     font-size: 350%;
 }
 
+/*greatly increases font size of h2, adds padding to h2*/
 h2 {
     font-size: xx-large;
     padding-bottom: 15px;
     padding-top: 15px;
-    font-weight: bold;
 }
 
+/*increases font size of h3, adds padding to h3*/
 h3 {
     font-size: x-large;
-    font-weight: bold;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
 }
 
+/*adds padding to h4*/
 h4 {
     padding-bottom: 30px;
-    font-weight: bold;
 }
 
 
@@ -219,7 +229,7 @@ textarea {
     color: black;
     border-radius: 0%;
     padding: 10px;
-    margin: 1% 0% 3px 3px;   
+    margin: 1.5% 0% 3px 3px;   
 }
 
 /*adds padding, aligns copyright footer to right, bolds text*/
