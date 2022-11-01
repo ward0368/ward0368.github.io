@@ -18,9 +18,9 @@
 </div>
 <div class="wrapper">
     <nav>
-        <ul>
-            <li>Home</li>
-            <li>Story</li>
+        <ul class="nav">
+            <li id="home">Home</li>
+            <li id="story">Story</li>
             <li>Contact</li>
         </ul>
     </nav>
@@ -42,10 +42,10 @@
     <div class="padding" class="facts">
         <h3>Facts About Climbing</h3>
         <ul>
-            <li>There are different types of Climbing</li>
-            <li>Bouldering is the cheapest form of Climbing</li>
-            <li>Top roping is the safest form of Climbing on big walls</li>
-            <li>Christian Ward Boulders V6 and projects V7</li>
+            <li class="bullet">There are different types of Climbing</li>
+            <li class="bullet">Bouldering is the cheapest form of Climbing</li>
+            <li class="bullet">Top roping is the safest form of Climbing on big walls</li>
+            <li class="bullet">Christian Ward Boulders V6 and projects V7</li>
         </ul>
     </div>
 
@@ -54,15 +54,15 @@
         <div class="box">
             <form action="#" method="get"></form>
             <div>
-                <label for="fullname" class="input">Your Name</label>
-                <input type="text" id="fullname" name="fname">
+                <label for="fullname" class="input">Your Name</label> <br>
+                <input type="text" id="fullname" name="fname" class="info">
             </div>
-        <div class="info">
-            <label for="email" class="input">Your Email</label>
-            <input type="text" id="email" name="email">
+        <div>
+            <label for="email" class="input">Your Email</label> <br>
+            <input type="text" id="email" name="email" class="info">
         </div>
         <div>
-            <label for="message" class="input">Your Message</label>
+            <label for="message" class="input">Your Message</label> <br>
             <textarea id="message" name="message"></textarea>
         </div>
             <div>
@@ -77,7 +77,7 @@
                 <input type="radio" id="maybe" name="wouldyou" value="maybe">
             </div>
             <div>
-                <button type="submit">SEND</button>
+                <button type="submit" id="button">SEND</button>
             </div>
         </div>
     </div>
