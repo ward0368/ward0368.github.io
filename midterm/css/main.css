@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
 nav ul li {
     display: inline;
     padding: 115px;
@@ -85,7 +90,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
-    max-width: 70%;
+    padding-top: 120px;
+    padding-right: 40px;
+
 }
 
 .container {
@@ -146,11 +153,19 @@ h2 {
     font-size: xx-large;
     padding-bottom: 15px;
     padding-top: 15px;
+    font-weight: bold;
 }
 
 h3 {
     font-size: x-large;
+    font-weight: bold;
 }
+
+h4 {
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
 
 p {
     font-size: large;
@@ -183,18 +198,16 @@ textarea {
 }
 
 #yourname {
-    line-height: 30px;
+    line-height: 35px;
 }
 
-
 #youremail {
-    line-height: 30px;
+    line-height: 35px;
 }
 
 #yourmessage {
-    line-height: 30px;
+    line-height: 35px;
 }
-
 
 
 #button {
