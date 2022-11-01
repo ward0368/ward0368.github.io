@@ -94,6 +94,7 @@ body {
     color: white;
     margin: 0 auto;
     max-width: 70%;
+    background-color: rgb(148, 225, 165);
 }
 
 .bullet::before {
@@ -155,8 +156,6 @@ p {
 }
 
 
-
-
 .info {
     display: block;
     width: 99%;
@@ -166,6 +165,12 @@ input [type=radio] {
     display: inline;
 }
 
+.mainimage {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0%;
+    border: 0%;
+}
 
 textarea {
     width: 100%;
