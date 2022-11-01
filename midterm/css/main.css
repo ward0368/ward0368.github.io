@@ -152,8 +152,7 @@ a:link, a:visited {
 
 /*adds spacing to the facts list*/
 .facts {
-    padding: 0 0 3% 0;
-    margin: 0 0 1% 0;
+    padding: 0 0 1% 0;
 }
 
 /*greatly increases font size of main title (h1)*/
@@ -172,8 +171,9 @@ h2 {
 h3 {
     font-size: x-large;
     padding-bottom: 1.5%;
-    padding-top: 1.5%;
+    padding-top: 1%;
 }
+
 
 /*adds spacing to h4*/
 h4 {
