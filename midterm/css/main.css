@@ -47,7 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-
 nav ul li {
     display: inline;
     padding: 115px;
@@ -69,12 +68,13 @@ nav ul li {
 
 .nav {
     line-height: 40px;
+    text-align: center;
 }
 
 
 /*styles the font of the site, changes the background color of the site*/
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(83, 159, 88);
 }
 
@@ -101,6 +101,7 @@ body {
     content: "•";
     font-size: 1.5rem;
     color: black;
+    padding-bottom: 0px;
     margin-right: 5px;
 }
 
@@ -144,6 +145,7 @@ h1 {
 h2 {
     font-size: xx-large;
     padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 h3 {
@@ -179,6 +181,21 @@ textarea {
     box-sizing: border-box;
     line-height: 25px;
 }
+
+#yourname {
+    line-height: 30px;
+}
+
+
+#youremail {
+    line-height: 30px;
+}
+
+#yourmessage {
+    line-height: 30px;
+}
+
+
 
 #button {
     border-style: solid;    
