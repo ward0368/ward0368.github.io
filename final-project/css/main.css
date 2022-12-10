@@ -67,3 +67,36 @@ nav {
     margin: 0 15px;
 }
 
+.logo-background {
+    background-color: #c78c06;
+}
+
+#home {
+    color: black;
+}
+
+.navstyle {
+    color: #c78c06;
+}
+
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: #c78c06;
+}
+
+.copyright {
+    color: #c78c06;
+}
+
+.credit {
+    color: darkgoldenrod;
+}
+
+footer {
+    background-color: black;
+}
