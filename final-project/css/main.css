@@ -105,7 +105,35 @@ h1 {
     font-size: 60px;
 }
 
+.aboutus {
+    background-image: url(../images/main-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    padding: 25px 0px;
+}
 
+.box1 {
+    background-color: rgba(35, 35, 35, 0.67);
+    color: white;
+    width: 100%;
+    max-width: 1200px;
+    padding: 5px;   
+}
+
+.connect {
+    background-color: #c78c06;
+    color: #222;
+    margin: 10px;
+    border: none;
+    padding: 20px;
+    font-size: 1.7rem;
+}
+
+p {
+    line-height: 20px;
+    padding: 10px;
+}
 
 table {
     table-layout: fixed;
