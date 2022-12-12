@@ -60,7 +60,8 @@ html {
 }
 
 header {
-    background-color: black;
+    background-color: #222;
+    width: 100%;
 } 
 
 nav {
@@ -72,11 +73,16 @@ nav {
 }
 
 #home {
-    color: black;
+    color: #222;
+    display: block;
+    text-align: center;
 }
+
 
 .navstyle {
     color: #c78c06;
+    display: block;
+    text-align: center;
 }
 
 
@@ -85,7 +91,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 a:hover {
-    color: black;
+    color: #222;
     background-color: #c78c06;
 }
 
@@ -98,5 +104,5 @@ a:hover {
 }
 
 footer {
-    background-color: black;
+    background-color: #222;
 }
