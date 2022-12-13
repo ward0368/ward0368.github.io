@@ -146,6 +146,7 @@ h1 {
 p {
     line-height: 20px;
     padding: 10px;
+    font-size: 12px;
 }
 
 table {
@@ -195,6 +196,40 @@ h2 {
     font-size: 40px;
     margin: auto;
     padding: 10px 0px 10px 15px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 30px;
+    margin: auto;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#servicesanchor {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.blackbuttons {
+    background-color: #222;
+    color: white;
+    font-size: larger;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+}
+
+.digitalimage {
+    width: 100%;
+    margin: auto;
+}
+
+.digitaltransformation {
+    background-color: #ffe6ac;
+    margin: auto;
 }
 
 
