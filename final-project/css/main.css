@@ -443,3 +443,11 @@ a:hover .unsplashlink {
 footer {
     background-color: #222;
 }
+
+/* ------------------------
+BEGINS DESKTOP LAYOUT CODE 
+---------------------------*/
+
+@media screen and (min-width: 760px) {
+
+}
