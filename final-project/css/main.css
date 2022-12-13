@@ -72,9 +72,15 @@ nav {
     margin: 0 15px;
 }
 
-.logo-background {
+.logo {
     background-color: #c78c06;
 }
+
+
+.logo-background {
+    background-color: #222;
+}
+
 
 #home {
     color: #222;
@@ -102,7 +108,6 @@ nav {
     color: #c78c06;
     display: block;
     text-align: center;
-    margin: 15px;
     padding: 15px;
 }
 
@@ -187,7 +192,7 @@ input[type=text] {
 }
 
 /* Styling for Contact Us inputs */
-input[type=text2] {
+#message {
     width: 95%;
     max-width: 1100px;
     margin: 10px;
@@ -195,14 +200,6 @@ input[type=text2] {
     border: 1px solid #222;
     min-height: 200px;
     border-radius: 2px;
-}
-
-/* Nav Searchbar input styling */
-input[type=text3] {
-    width: 80%;
-    margin: auto;
-    align-items: center;
-    text-align: center;
 }
 
 #button {
@@ -223,7 +220,6 @@ input[type=text3] {
 
 
 .searchbar {
-    border-radius: none;
     width: 100%;
     display: block;
     margin: auto;
@@ -407,7 +403,6 @@ h4 {
 .fa-search {
     color: #c78c06;
     border: 1px solid #c78c06;
-    border-radius: none;
     background-color: #222;
     padding: 3px;
 }
@@ -449,5 +444,42 @@ BEGINS DESKTOP LAYOUT CODE
 ---------------------------*/
 
 @media screen and (min-width: 760px) {
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-grow: 1;
+        font-size: 1.2rem;
+    }
+    .aboutus {
+        background-image: url(../images/main-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 25px 65px;
+    }
+    .card {
+        border: 6px;
+    }
+    .wrapper {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .inline {
+        width: 85%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .logo {
+        padding: 30px;
+    }
+    .grid-layout {
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
+
+    
 }
