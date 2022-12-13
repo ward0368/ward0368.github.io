@@ -121,7 +121,9 @@ h1 {
 .aboutus {
     background-image: url(../images/main-banner.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
     height: auto;
     padding: 25px 0px;
 }
@@ -235,6 +237,7 @@ h3 {
 .laptopimage {
     width: 100%;
     margin: auto;
+    padding-top: 10px;
 }
 
 .marketing {
@@ -245,6 +248,7 @@ h3 {
 .cellphoneyoutube {
     width: 100%;
     margin: auto;
+    padding-top: 10px;
 }
 
 .videoproduction {
@@ -255,6 +259,7 @@ h3 {
 .cellphonenotepad {
     width: 100%;
     margin: auto;
+    padding-top: 10px;
 }
 
 .webdev {
@@ -265,11 +270,13 @@ h3 {
 .newspaperboxes {
     width: 100%;
     margin: auto;
+    padding-top: 10px;
 }
 
 .print {
     background-color: #ffe6ac;
     margin: auto;
+    padding-bottom: 10px;
 }
 
 
@@ -280,6 +287,32 @@ h3 {
     margin: 20px;
     font-size: 1.5rem;
 }
+
+.learnmorebutton {
+    background-color: rgba(22,22,22, 0.8);
+    color: white;
+    border: 1px solid #c78c06;
+    font-size: larger;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vision {
+    background-image: url(../images/vision.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 8px;
+}
+
+.box2 {
+    color: white;
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px;  
+}
+
 
 .fa-search {
     color: #c78c06;
