@@ -54,47 +54,51 @@ table {
 /* ---------------------------------------
 Beginning of CSS
 ------------------------------------------- */
+
+/* MOBILE STYLING */
+
+
+/* sets font for all of html to Open Sans, sets the font size */
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
 }
 
+/* Makes it so the website cannot be scrolled left and right */
 body {
     overflow-x: hidden;
 }
 
+/* Colours the background of the header, increases width */
 header {
     background-color: #222;
     width: 100%;
 } 
 
+/* adds a margin to the navigation */
 nav {
     margin: 0 15px;
 }
 
+/* changes background colour around three star media logo in */
 .logo {
     background-color: #c78c06;
+    display: block;
 }
 
-
+/* changes the colour of the navigation to off-black */
 .logo-background {
     background-color: #222;
 }
 
-
-#home {
-    color: #222;
-    display: block;
-    text-align: center;
-    padding: 15px;
-}
-
+/* Wraps all sections to line up properly within margins */
 .wrapper {
     width: 100%;
     max-width: 1200px;
     margin: auto;
 }
 
+/* changes position and visual of pingpong table photo */
 .pingpong {
     width: 95%;
     display: block;
@@ -104,6 +108,7 @@ nav {
 
 }
 
+/* styles navigation text color and positioning */
 .navstyle {
     color: #c78c06;
     display: block;
@@ -111,18 +116,21 @@ nav {
     padding: 15px;
 }
 
+/* removes decorations from list items */
 ul, li {
     text-decoration: none;
     list-style-type: none;
     list-style: none;
 }
 
+/* styles "Three star media" title */
 h1 {
     color: white;
     font-weight: bold;
     font-size: 60px;
 }
 
+/* styles about us, creates background image, edits positioning within image */
 .aboutus {
     background-image: url(../images/main-banner.jpg);
     background-repeat: no-repeat;
@@ -133,6 +141,7 @@ h1 {
     padding: 25px 0px;
 }
 
+/* creates opacity background for welcome section */
 .box1 {
     background-color: rgba(35, 35, 35, 0.67);
     color: white;
@@ -141,6 +150,7 @@ h1 {
     padding: 5px;   
 }
 
+/* Styles "connect with us" button */
 .connect {
     background-color: #c78c06;
     color: #222;
@@ -150,17 +160,19 @@ h1 {
     font-size: 1.7rem;
 }
 
+/* sets line height, sizing and padding to all paragraphs */
 p {
     line-height: 20px;
     padding: 10px;
     font-size: 12px;
 }
 
-
+/* sets table layout to fixed */
 table {
     table-layout: fixed;
 }
 
+/* styles table, adjusts sizing/positioning */
 table, th, td {
     border: 1px solid #222;
     border-collapse: collapse;
@@ -169,11 +181,12 @@ table, th, td {
     width: 95%;
 }
 
+/* Changes background colour of table */
 th {
     background-color: #ffe6ac;
 }
 
-/* Map Stylization (Location) */
+/* Map Stylization/positioning (Location) */
 iframe {
     width: 95%;
     margin: auto;
@@ -181,7 +194,7 @@ iframe {
     padding-bottom: 20px;
 }
 
-/* Styling for Contact Us inputs */
+/* Styling/positioning for Contact Us inputs */
 input[type=text] {
     width: 95%;
     max-width: 1100px;
@@ -191,7 +204,7 @@ input[type=text] {
     border-radius: 2px;
 }
 
-/* Styling for Contact Us inputs */
+/* Styling/positioning for Contact Us inputs */
 #message {
     width: 95%;
     max-width: 1100px;
@@ -202,6 +215,7 @@ input[type=text] {
     border-radius: 2px;
 }
 
+/* Styles "SEND" Button for contact us section */
 #button {
     background-color: #222;
     color: #c78c06;
@@ -211,25 +225,27 @@ input[type=text] {
     font-size: 1.7rem;
 }
 
-
+/* Styles labels text */
 .label {
     font-size: 1.3rem;
     line-height: 10px;
     padding: 10px;
 }
 
-
+/* Styles/positions searchbar */
 .searchbar {
     width: 100%;
     display: block;
     margin: auto;
 }
 
+/* Changes background colour of about us section, positions */
 .about {
     background-color: #ffe6ac;
     margin: auto;
 }
 
+/* styles all h2 elements */
 h2 {
     font-weight: bold;
     font-size: 40px;
@@ -237,6 +253,7 @@ h2 {
     padding: 10px 0px 10px 15px;    
 }
 
+/* styles all h3 elements */
 h3 {
     font-weight: bold;
     font-size: 30px;
@@ -246,12 +263,14 @@ h3 {
     padding-bottom: 10px;
 }
 
+/* adds spacing and positioning to services section */
 #servicesanchor {
     padding-top: 40px;
     padding-bottom: 30px;
     margin: auto;
 }
 
+/* styles all "Our Services" Buttons */
 .blackbuttons {
     background-color: #222;
     color: white;
@@ -261,62 +280,72 @@ h3 {
     margin: 10px;
 }
 
+/* positions/resizes "digital" image */
 .digitalimage {
     width: 100%;
     margin: auto;
 }
 
+/* styles background below digitaltransformation */
 .digitaltransformation {
     background-color: #ffe6ac;
     margin: auto;
 }
 
+/* positions/resizes "laptop" image */
 .laptopimage {
     width: 100%;
     margin: auto;
     padding-top: 10px;
 }
 
+/* styles background below marketing */
 .marketing {
     background-color: #ffe6ac;
     margin: auto;
 }
 
+/* positions/resizes "cellphoneyoutube" image */
 .cellphoneyoutube {
     width: 100%;
     margin: auto;
     padding-top: 10px;
 }
 
+/* styles background below videoproduction */
 .videoproduction {
     background-color: #ffe6ac;
     margin: auto;
 }
 
+/* positions/resizes "cellphonenotepad" image */
 .cellphonenotepad {
     width: 100%;
     margin: auto;
     padding-top: 10px;
 }
 
+/* styles background below webdev */
 .webdev {
     background-color: #ffe6ac;
     margin: auto;
 }
 
+/* positions/resizes "newspaperboxes" image */
 .newspaperboxes {
     width: 100%;
     margin: auto;
     padding-top: 10px;
 }
 
+/* styles background below print */
 .print {
     background-color: #ffe6ac;
     margin: auto;
     padding-bottom: 10px;
 }
 
-
+/* Styles search button */
 .buttonstyle {
     background-color: #222;
     color: #c78c06;
@@ -325,6 +354,7 @@ h3 {
     font-size: 1.5rem;
 }
 
+/* Styles learn more button */
 .learnmorebutton {
     background-color: rgba(22,22,22, 0.8);
     color: white;
@@ -334,6 +364,7 @@ h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Styles vision section, adds backgroind image, position and spacing */
 .vision {
     background-image: url(../images/vision.jpg);
     background-repeat: no-repeat;
@@ -343,6 +374,7 @@ h3 {
     padding: 8px;
 }
 
+/* Styles text within Our Vision Section, adds padding and positioning */
 .box2 {
     color: white;
     width: 100%;
@@ -350,48 +382,55 @@ h3 {
     padding: 10px;  
 }
 
+/* adds spacing to team anchor */
 #teamanchor {
     padding-top: 30px;
     padding-bottom: 10px;
 }
 
+/* Changes width and positioning of john doe image */
 .imgjohndoe {
     width: 100%;
     margin: auto;
 }
 
+/* styles background for john doe text */
 .johndoe {
     background-color: #ffe6ac;
 }
 
+/* positions and changes with for bob rite image */
 .imgbobrite {
     width: 100%;
     margin: auto;
 }
 
+/* styles background for bob rite text */
 .bobrite {
     background-color: #ffe6ac;
 }
 
+/* adds spacing and positions contact anchor */
 #contactanchor {
     margin: auto;
     padding-top: 40px;
 }
 
-
+/* styles all h4's */
 h4 {
     padding: 10px;
     border-bottom: 3px solid #c78c06;
     padding-bottom: 6px;
 }
 
-
+/* positions and adds spacing to Hours of Operation table */
 #hoursoo {
     margin: auto;
     padding-bottom: 15px;
     font-size: 30px;
 }
 
+/* Styles title of map (Location text) */
 #locationtitle {
     margin: auto;
     padding-top: 25px;
@@ -399,7 +438,7 @@ h4 {
     font-size: 30px;
 }
 
-
+/* Styles the search icon (Magnifying glass) */
 .fa-search {
     color: #c78c06;
     border: 1px solid #c78c06;
@@ -407,34 +446,39 @@ h4 {
     padding: 3px;
 }
 
+/* Removes underline from all links */
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
+/* Styles and creates hover effect */
 a:hover {
     color: #222;
     background-color: #c78c06;
 }
 
-a:hover .unsplashlink {
-    text-decoration: none;
-    color: #c78c06;
-    background-color: #222;
+/* Changes width of searchbar */
+#searchbar {
+    width: 80%;
 }
 
+/* Colours unsplash footer link */
 .unsplashlink {
     color: #c78c06;
     text-decoration: underline;
 }
 
+/* Colours footer copyright */
 .copyright {
     color: #c78c06;
 }
 
+/* Colours image credt footer section */
 .credit {
     color: #c78c06;
 }
 
+/* Changes background colour of footer */
 footer {
     background-color: #222;
 }
@@ -442,8 +486,9 @@ footer {
 /* ------------------------
 BEGINS DESKTOP LAYOUT CODE 
 ---------------------------*/
-
+/* Media Screen for desktops */
 @media screen and (min-width: 760px) {
+    /* styles and positions navigation */
     nav ul {
         display: flex;
         align-items: center;
@@ -451,35 +496,77 @@ BEGINS DESKTOP LAYOUT CODE
         flex-grow: 1;
         font-size: 1.2rem;
     }
+    /* Positions the background image for welcome section */
     .aboutus {
         background-image: url(../images/main-banner.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         padding: 25px 65px;
     }
+    /* Adds a border to all card classes */
     .card {
         border: 6px;
     }
+    /* Changes positioning of items in wrapper */
     .wrapper {
         max-width: 1200px;
         margin: auto;
     }
+    /* Sets about us section side-by-side */
     .inline {
         width: 85%;
         margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    /* Adds padding to nav logo  */
     .logo {
         padding: 30px;
     }
+
+    /* STARTS GRID FOR OUR SERVICES SECTION */
+
     .grid-layout {
-        padding: 1em;
-        display: flex;
-        flex-direction: row;
+        display: grid;
         flex-wrap: wrap;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
-
+    .digitaltransformation {
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-rows: 3fr;
+        width: 46%;
+    }
+    .marketing {
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-rows: 3fr;
+        width: 46%;
+    }
+    .videoproduction {
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-rows: 3fr;
+        width: 46%;
+    }
+    .webdev {
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-rows: 3fr;
+        width: 46%;
+    }
+    .print {
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-rows: 3fr;
+        width: 46%;
+    }
+    .vision {
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-rows: 3fr;
+        width: 90%;
+    }
     
 }
