@@ -524,49 +524,62 @@ BEGINS DESKTOP LAYOUT CODE
         padding: 30px;
     }
 
+    
     /* STARTS GRID FOR OUR SERVICES SECTION */
-
+    /* All code in this section is spacing and position of the "Our Services" Boxes, as well as "Our Team" boxes */
     .grid-layout {
         display: grid;
-        flex-wrap: wrap;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
     .digitaltransformation {
         display: grid;
-        grid-template-columns: 3fr;
-        grid-template-rows: 3fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         width: 46%;
+        float: left;
     }
     .marketing {
         display: grid;
-        grid-template-columns: 3fr;
-        grid-template-rows: 3fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         width: 46%;
+        display: inline-block;
     }
     .videoproduction {
         display: grid;
-        grid-template-columns: 3fr;
-        grid-template-rows: 3fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         width: 46%;
+        float: left;
     }
     .webdev {
         display: grid;
-        grid-template-columns: 3fr;
-        grid-template-rows: 3fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         width: 46%;
+        float: right;
     }
     .print {
         display: grid;
-        grid-template-columns: 3fr;
-        grid-template-rows: 3fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         width: 46%;
+        display: inline-block;
     }
     .vision {
         display: grid;
         grid-template-columns: 3fr;
         grid-template-rows: 3fr;
         width: 90%;
+        display: inline-block;
     }
-    
+    .johndoe {
+        display: inline-block;
+        width: 40%;
+    }
+    .bobrite {
+        display: inline-block;
+        width: 40%;
+    }
 }
